@@ -1,0 +1,59 @@
+.fat_itembox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+    width: 75%;
+    gap: 3%;
+}
+.fat_itembox div{
+  height: 150px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 150px;
+  border-radius: 50%;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.fat_itembox .one
+{
+    background-image: url('../../Images/ellipse_1_copy_3.png');
+    background-size: cover;
+}
+.fat_itembox .two
+{
+    background-image: url('../../Images/ellipse_1.png');
+    background-size: cover;
+}
+.fat_itembox .three
+{
+    background-image: url('../../Images/ellipse_1_copy.png');
+    background-size: cover;
+}
+.fat_itembox .four
+{
+    background-image: url('../../Images/ellipse_1_copy_2.png');
+    background-size: cover;
+}
+.fat_section
+{
+    padding-top: 100px;
+    position: absolute;
+    top: 100%;
+    height: 90vh;
+    width: 100%;
+    background-image: url('../../Images/layer_6.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fat_section h1,p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}

@@ -1,0 +1,119 @@
+.news_section
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 380%;
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+    background-color: #ebebeb;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.news_section h1{
+    color: #353535;
+    margin-bottom: 20px;
+}
+.news_section p{
+text-align: center;
+margin-bottom: 7px;
+color: #686868;
+}
+.news_itembox
+{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 75%;
+    gap: 10%;
+}
+.news_itembox div{
+    width: 25%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.news_itembox div h3{
+    font-size: small;
+    color: #3b9aff;
+    padding: 17px 30px 10px 0px;
+}
+.news_itembox div p{
+padding: 7px 12px 35px 20px;
+text-align: left;
+font-size: small;
+}
+.news_itembox .maincoverimg
+{
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    padding-top: 30px;
+}
+.news_itembox .one div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3%;
+    width: 100%;
+
+}
+.news_itembox .one div img{
+    height: 45%;
+}
+.news_itembox .one div h5
+{
+    color: #686868;
+    margin-right: 29px;
+    font-size: 10px;
+}
+
+
+.news_itembox .two div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3%;
+    width: 100%;
+
+}
+.news_itembox .two div img{
+    height: 45%;
+}
+.news_itembox .two div h5
+{
+    color: #686868;
+    margin-right: 29px;
+    font-size: 10px;
+}
+
+
+.news_itembox .three div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3%;
+    width: 100%;
+
+}
+.news_itembox .three div img{
+    height: 45%;
+}
+.news_itembox .three div h5
+{
+    color: #686868;
+    margin-right: 29px;
+    font-size: 10px;
+}
